@@ -8,18 +8,6 @@ order: 2
 author: author1
 ---
 
-<a href="https://github.com/HwangToeMat/Tensorflow-API-HTM/blob/master/1.classification/reCAPTCHA_classification.ipynb">[main code]</a>
-
-Break through the security program for prevent ing macros, reCAPTCHA , using Inception Net.
-
-![image1](https://github.com/HwangToeMat/Tensorflow-API-HTM/blob/master/1.classification/image/image1.jpg?raw=true)
-![image2](https://github.com/HwangToeMat/Tensorflow-API-HTM/blob/master/1.classification/image/image2.jpg?raw=true)
-
-### Conclusion
-The picture quality was not very good, but we all correctly determined whether the bus was included. 
-Program using Inception Net will be able to break through the reCAPTCHA.
-
-
 # 1. Classification  <a href="https://github.com/HwangToeMat/Tensorflow-API-HTM/blob/master/1.classification/reCAPTCHA_classification.ipynb">[Break through the reCAPTCHA]</a>
 
 ### Taeho KIM, Kyung Hee UNIV. <a href="https://github.com/HwangToeMat">GitHub Link</a>
