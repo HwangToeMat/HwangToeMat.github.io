@@ -58,13 +58,21 @@ We used **ssdlite_mobilenet_v2_coco<a href="http://download.tensorflow.org/model
 
 ## Result
 ### graph
-**DetectionBoxes_Precision**
+**DetectionBoxes_Precision(coco_metrics)**
 
 <img src="https://github.com/HwangToeMat/Tensorflow-API-HTM/blob/master/2.object_detection/images/DetectionBoxes_Precision.png?raw=true" style="max-width:100%;">
 
-**DetectionBoxes_Recall**
+**DetectionBoxes_Recall(coco_metrics)**
 
 <img src="https://github.com/HwangToeMat/Tensorflow-API-HTM/blob/master/2.object_detection/images/DetectionBoxes_Recall.png?raw=true" style="max-width:100%;">
+
+**Performance by category(oid_v2_metrics)**
+
+<img src="https://github.com/HwangToeMat/Tensorflow-API-HTM/blob/master/2.object_detection/images/oid_metrics_category.png?raw=true" style="max-width:100%;">
+
+**Performance by total(oid_v2_metrics)**
+
+<img src="https://github.com/HwangToeMat/Tensorflow-API-HTM/blob/master/2.object_detection/images/oid_metrics_total.png?raw=true" style="max-width:100%;">
 
 ### Image(Left : our model / Right : ground truth )
 
