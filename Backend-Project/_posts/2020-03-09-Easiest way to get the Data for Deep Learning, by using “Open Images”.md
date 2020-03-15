@@ -8,7 +8,7 @@ layout: post
 order: 1
 ---
 
-<a href="https://github.com/HwangToeMat/Open-Images_EasyDownload">[main code]</a>
+<a href="https://github.com/HwangToeMat/DataAnalysis-with-Python/tree/master/01_%EC%84%9C%EC%9A%B8%EC%8B%9C%20%EC%9E%90%EC%B9%98%EA%B5%AC%EB%B3%84%20%EB%85%B8%EC%9D%B8%20%EB%B3%B5%EC%A7%80%EC%88%98%EC%A4%80%20%EB%B6%84%EC%84%9D/sorce_code">[main code]</a>
 
 Open Images is the largest annotated image dataset in many regards, for use in training the latest deep convolutional neural networks for computer vision tasks. But, sometimes large capacities of 'Open Images' make it difficult to find only the data you need.
 
