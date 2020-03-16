@@ -13,6 +13,7 @@ description: >
   
 ## 0. Open-Images_EasyDownload 
 Easiest way to get the Data for Deep Learning, by using “Open Images”. <a href="https://github.com/HwangToeMat/Open-Images_EasyDownload">[Helper library for downloading OpenImages categorically.]</a>
+
 ![image1](https://github.com/HwangToeMat/Tensorflow-API-HTM/blob/master/0.Open-Images_EasyDownload/image1.png?raw=true)
 
 ## 1. Classification <a href="https://github.com/HwangToeMat/Tensorflow-API-HTM/blob/master/1.classification/reCAPTCHA_classification.ipynb">[Break through the reCAPTCHA]</a>
