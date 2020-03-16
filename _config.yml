@@ -81,7 +81,7 @@ paginate_path: /page-:num/
 # Customizaton
 # ========================================================================================
 # Thumbnail
-image: /assets/img/thumbnail.png
+image: /assets/img/sidebar-bg.jpg
 
 # Sidebar image and theme color of the site.
 accent_image: /assets/img/sidebar-bg.jpg
