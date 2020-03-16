@@ -1,6 +1,6 @@
 ---
 title: 2. Football play detection with Tensorflow API
-image: https://github.com/HwangToeMat/Tensorflow-API-HTM/blob/master/2.object_detection/images/result3.png?raw=true
+image: https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/assets/img/thumbnail/tap-2.png?raw=true
 description: >
  We used ssdlite_mobilenet_v2_coco[Download Link] to analyze soccer games in real time because we need fast computing speed. But as you can see in the image below, our model(Left) performs very well even though it is a lightweight model.
 author: author1
