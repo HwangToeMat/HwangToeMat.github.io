@@ -1,6 +1,6 @@
 ---
 title: 0. Easiest way to get the Data for Deep Learning, by using “Open Images”
-image: https://github.com/HwangToeMat/Open-Images_EasyDownload/blob/master/image1.png?raw=true
+image: https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/assets/img/thumbnail/tap-0.png?raw=true
 description: >
  Helper library for downloading OpenImages(https://storage.googleapis.com/openimages/web/index.html) categorically.
 author: author1
