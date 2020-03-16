@@ -10,3 +10,6 @@ order: 2
 
 <a href="https://github.com/HwangToeMat/Raw-Material-Price-and-Stock-Price">[main code]</a>
 
+![png](https://github.com/HwangToeMat/Raw-Material-Price-and-Stock-Price/blob/master/image/pdf1.jpg?raw=true)
+
+![png](https://github.com/HwangToeMat/Raw-Material-Price-and-Stock-Price/blob/master/image/pdf2.jpg?raw=true)
