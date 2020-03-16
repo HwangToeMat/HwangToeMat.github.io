@@ -21,7 +21,7 @@ layout: compress
 
 {% assign author = site.data.authors[page.author] | default:site.data.authors.first[1] | default:site.author %}
 
-{% assign image       = site.image | default:'/assets/img/thumbnail.png' %}
+{% assign image       = site.image | default:'' %}
 {% assign color       = site.accent_color | default:'#4fb1ba' %}
 {% assign theme_color = site.theme_color  | default:'#193747' %}
 
