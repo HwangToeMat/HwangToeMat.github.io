@@ -1218,7 +1218,7 @@ plt.savefig('구리.jpg')
 ```
 
 
-![png](readme_files/readme_14_0.png)
+![png](https://github.com/HwangToeMat/Raw-Material-Price-and-Stock-Price/blob/master/readme_files/readme_14_0.png?raw=true)
 
 
 
@@ -1363,7 +1363,7 @@ plt.show()
 ```
 
 
-![png](readme_files/readme_17_0.png)
+![png](https://github.com/HwangToeMat/Raw-Material-Price-and-Stock-Price/blob/master/readme_files/readme_17_0.png?raw=true)
 
 
 
@@ -1504,7 +1504,7 @@ plt.show()
 ```
 
 
-![png](readme_files/readme_20_0.png)
+![png](https://github.com/HwangToeMat/Raw-Material-Price-and-Stock-Price/blob/master/readme_files/readme_20_0.png?raw=true)
 
 
 ### 원자재 가격과 음의 상관관계를 갖는 주식
@@ -1645,7 +1645,7 @@ plt.show()
 ```
 
 
-![png](readme_files/readme_24_0.png)
+![png](https://github.com/HwangToeMat/Raw-Material-Price-and-Stock-Price/blob/master/readme_files/readme_24_0.png?raw=true)
 
 
 
@@ -1689,7 +1689,7 @@ plt.show()
 ```
 
 
-![png](readme_files/readme_26_0.png)
+![png](https://github.com/HwangToeMat/Raw-Material-Price-and-Stock-Price/blob/master/readme_files/readme_26_0.png?raw=true)
 
 
 
@@ -1733,4 +1733,4 @@ plt.show()
 ```
 
 
-![png](readme_files/readme_28_0.png)
+![png](https://github.com/HwangToeMat/Raw-Material-Price-and-Stock-Price/blob/master/readme_files/readme_28_0.png?raw=true)
