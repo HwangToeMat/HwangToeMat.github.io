@@ -50,5 +50,10 @@ naver api를 사용해서 네이버 블로그에서 더본코리아의 11개의 
 
 ![png](https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/assets/img/thumbnail/dwp-8.png?raw=true)
 
+## 8. 원자재가격과 주가의 관계 분석 <a href="https://github.com/HwangToeMat/Raw-Material-Price-and-Stock-Price">[main code]</a>
+각종 원자재 가격과 주가의 상관관계를 알아보기위해 5년간 KOSPI 주가의 등락과 원자재가격의 등락을 비교하고 해당기업과 원자재 간의 관계를 해석해 보았다.
+
+![png](https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/assets/img/thumbnail/dwp-9.png?raw=true)
+
 </div>
 </details>
