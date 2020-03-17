@@ -58,7 +58,7 @@ menu:
   - title: DataAnalysis-with-Python
     url: /dataanalysis-with-python/
   - title: Data-structure-&-Algorithm
-    url: /data-structure-&-algorithm/
+    url: /data-structure-algorithm/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
