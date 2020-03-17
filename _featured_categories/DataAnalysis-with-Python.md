@@ -3,7 +3,7 @@ layout: list
 title: DataAnalysis-with-Python
 slug: DataAnalysis-with-Python
 description: >
-  '파이썬으로 데이터 주무르기'라는 책을 참고하여 다양한 데이터들을 파이썬으로 직접 분석해 본다.
+  다양한 공개된 데이터셋을 파이썬과 여러 오픈소스들을 사용하여 분석해본다.
 ---
 
 <details>
