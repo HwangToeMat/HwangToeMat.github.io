@@ -1,20 +1,17 @@
 ---
-title: 원자재가격과 주가의 관계 분석_1 [Code]
-image: https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/assets/img/thumbnail/etc-1.jpg?raw=true
+title: 8-1. 원자재가격과 주가의 관계 분석_1 [Code]
+image: https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/assets/img/thumbnail/dwp-9.jpg?raw=true
 description: >
  A Study on the Relationship between Raw Material Price and Stock Price
 author: author1
 layout: post
-order: 1
+order: 9
 ---
 
 <a href="https://github.com/HwangToeMat/Raw-Material-Price-and-Stock-Price">[main code]</a>
 
 
 # 원자재가격과 주가의 관계 분석
-
-### 경희대학교 산업경영공학과 김태호 [Github](https://github.com/hwangtoemat)
-
 
 ```python
 import pandas as pd
