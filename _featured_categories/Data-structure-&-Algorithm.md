@@ -1,7 +1,7 @@
 ---
 layout: list
-title: ETC
-slug: ETC
+title: Data-structure-&-Algorithm
+slug: Data-structure-&-Algorithm
 description: >
-  ETC
+  Data-structure-&-Algorithm
 ---
