@@ -5,7 +5,7 @@ description: >
  SVM알고리즘을 사용하여 FIFA 19데이터의 포지션을 예측해본다.
 author: author1
 layout: post
-order: 12
+order: 13
 ---
 
 <a href="https://github.com/HwangToeMat/MachineLearning-with-Python/tree/master/04)%20Decision%20tree%20%EC%99%80%20Randomforest%20%EB%B9%84%EA%B5%90%ED%95%98%EA%B8%B0(%ED%83%80%EC%9D%B4%ED%83%80%EB%8B%89%20%EC%83%9D%EC%A1%B4%EC%9E%90%20%EC%98%88%EC%B8%A1)/source%20code">[main code]</a>
