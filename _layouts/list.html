@@ -20,6 +20,17 @@ layout: base
 {% assign date_formats  = site.data.strings.date_formats               %}
 {% assign list_group_by = date_formats.list_group_by | default:"%Y"    %}
 {% assign list_entry    = date_formats.list_entry    | default:"%d %b" %}
+
+{% if page.title.size > 0 %}
+  <header>
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% include components/message.html text=page.description hide=page.hide_description %}
+  </header>
+  <hr class="sr-only"/>
+{% endif %}
+
+{{ content }}
+
 {% for post in posts %}
   {% assign currentdate = post.date | date:list_group_by %}
   {% if currentdate != date %}
@@ -31,13 +42,3 @@ layout: base
   {% include components/post-list-item.html post=post format=list_entry %}
   {% if forloop.last %}</ul>{% endif %}
 {% endfor %}
-
-{% if page.title.size > 0 %}
-  <header>
-    <h1 class="page-title">{{ page.title }}</h1>
-    {% include components/message.html text=page.description hide=page.hide_description %}
-  </header>
-  <hr class="sr-only"/>
-{% endif %}
-
-{{ content }}
