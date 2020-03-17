@@ -787,7 +787,7 @@ plt.show()
 ```
 
 
-![png](https://github.com/HwangToeMat/MachineLearning-with-Python/blob/master/04)%20Decision%20tree%20%EC%99%80%20Randomforest%20%EB%B9%84%EA%B5%90%ED%95%98%EA%B8%B0(%ED%83%80%EC%9D%B4%ED%83%80%EB%8B%89%20%EC%83%9D%EC%A1%B4%EC%9E%90%20%EC%98%88%EC%B8%A1)/source%20code/readme_files/readme_21_0.png?raw=true)
+![png](https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/assets/img/readme_files/dwp-13/readme_21_0.png?raw=true)
 
 
 * Blue indicates death and orange indicates survivors.
@@ -803,7 +803,7 @@ plt.show()
 ```
 
 
-![png](https://github.com/HwangToeMat/MachineLearning-with-Python/blob/master/04)%20Decision%20tree%20%EC%99%80%20Randomforest%20%EB%B9%84%EA%B5%90%ED%95%98%EA%B8%B0(%ED%83%80%EC%9D%B4%ED%83%80%EB%8B%89%20%EC%83%9D%EC%A1%B4%EC%9E%90%20%EC%98%88%EC%B8%A1)/source%20code/readme_files/readme_23_0.png?raw=true)
+![png](https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/assets/img/readme_files/dwp-13/readme_23_0.png?raw=true)
 
 
 * Comparing the survival rate by seat rating, one can see that the expensive seat has higher survival rate.
@@ -818,7 +818,7 @@ plt.show()
 ```
 
 
-![png](https://github.com/HwangToeMat/MachineLearning-with-Python/blob/master/04)%20Decision%20tree%20%EC%99%80%20Randomforest%20%EB%B9%84%EA%B5%90%ED%95%98%EA%B8%B0(%ED%83%80%EC%9D%B4%ED%83%80%EB%8B%89%20%EC%83%9D%EC%A1%B4%EC%9E%90%20%EC%98%88%EC%B8%A1)/source%20code/readme_files/readme_25_0.png?raw=true)
+![png](https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/assets/img/readme_files/dwp-13/readme_25_0.png?raw=true)
 
 
 * The age distribution of passengers shows that they are concentrated in their 20s and 30s.
@@ -836,7 +836,7 @@ g = g.legend(["Not Survived","Survived"])
 ```
 
 
-![png](https://github.com/HwangToeMat/MachineLearning-with-Python/blob/master/04)%20Decision%20tree%20%EC%99%80%20Randomforest%20%EB%B9%84%EA%B5%90%ED%95%98%EA%B8%B0(%ED%83%80%EC%9D%B4%ED%83%80%EB%8B%89%20%EC%83%9D%EC%A1%B4%EC%9E%90%20%EC%98%88%EC%B8%A1)/source%20code/readme_files/readme_27_0.png?raw=true)
+![png](https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/assets/img/readme_files/dwp-13/readme_27_0.png?raw=true)
 
 
 * The most important part of this graph comparing survival rate and age is the green section, which represents a high percentage of survivors, and the purple section, which represents a high percentage of deaths.
@@ -1367,7 +1367,7 @@ df.plot()
 
 
 
-![png](https://github.com/HwangToeMat/MachineLearning-with-Python/blob/master/04)%20Decision%20tree%20%EC%99%80%20Randomforest%20%EB%B9%84%EA%B5%90%ED%95%98%EA%B8%B0(%ED%83%80%EC%9D%B4%ED%83%80%EB%8B%89%20%EC%83%9D%EC%A1%B4%EC%9E%90%20%EC%98%88%EC%B8%A1)/source%20code/readme_files/readme_71_1.png?raw=true)
+![png](https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/assets/img/readme_files/dwp-13/readme_71_1.png?raw=true)
 
 
 # Accuracy of Decision Tree
@@ -1427,7 +1427,7 @@ df.plot()
 
 
 
-![png](https://github.com/HwangToeMat/MachineLearning-with-Python/blob/master/04)%20Decision%20tree%20%EC%99%80%20Randomforest%20%EB%B9%84%EA%B5%90%ED%95%98%EA%B8%B0(%ED%83%80%EC%9D%B4%ED%83%80%EB%8B%89%20%EC%83%9D%EC%A1%B4%EC%9E%90%20%EC%98%88%EC%B8%A1)/source%20code/readme_files/readme_78_1.png?raw=true)
+![png](https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/assets/img/readme_files/dwp-13/readme_78_1.png?raw=true)
 
 
 # etc..
