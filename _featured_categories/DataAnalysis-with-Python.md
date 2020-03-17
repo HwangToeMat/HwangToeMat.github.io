@@ -60,7 +60,7 @@ naver api를 사용해서 네이버 블로그에서 더본코리아의 11개의 
 
 ![png](https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/assets/img/thumbnail/dwp-11.jpg?raw=true)
 
-## 10. 머신러닝으로 FIFA 19 선수 포지션 예측하기 <a href="https://github.com/HwangToeMat/MachineLearning-with-Python/tree/master/04)%20Decision%20tree%20%EC%99%80%20Randomforest%20%EB%B9%84%EA%B5%90%ED%95%98%EA%B8%B0(%ED%83%80%EC%9D%B4%ED%83%80%EB%8B%89%20%EC%83%9D%EC%A1%B4%EC%9E%90%20%EC%98%88%EC%B8%A1)/source%20code">[main code]</a>
+## 10. 머신러닝으로 타이타닉 생존자 예측하기 <a href="https://github.com/HwangToeMat/MachineLearning-with-Python/tree/master/04)%20Decision%20tree%20%EC%99%80%20Randomforest%20%EB%B9%84%EA%B5%90%ED%95%98%EA%B8%B0(%ED%83%80%EC%9D%B4%ED%83%80%EB%8B%89%20%EC%83%9D%EC%A1%B4%EC%9E%90%20%EC%98%88%EC%B8%A1)/source%20code">[main code]</a>
 타이타닉 생존자 데이터를 분석하며 Decision tree 와 Randomforest 비교해 본다.
 
 ![png](https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/assets/img/thumbnail/dwp-13.png?raw=true)
