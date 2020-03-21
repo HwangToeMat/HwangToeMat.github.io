@@ -11,7 +11,7 @@ order: 1
 
 
 
-
+title: 0. Deep Learning for Computer Vision
 
 
 
