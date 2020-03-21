@@ -1,5 +1,5 @@
 ---
-title: Deep Learning for Computer Vision
+title: 0. Deep Learning for Computer Vision
 image: https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/assets/img/thumbnail/pr-0.png?raw=true
 description: >
  Deep Learning for Computer Vision // 컴퓨터 비젼 분야에서 딥러닝이 쓰이는 대표적인 예시들을 살펴본다.
