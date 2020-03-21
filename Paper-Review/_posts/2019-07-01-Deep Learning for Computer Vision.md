@@ -9,6 +9,12 @@ order: 1
 ---
 
 
+
+
+
+
+
+
 ## What is Computer Vision?
 
 ### Definition
