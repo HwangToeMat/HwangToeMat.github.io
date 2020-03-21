@@ -8,12 +8,7 @@ layout: post
 order: 1
 ---
 
-
-
-
-title: 0. Deep Learning for Computer Vision
-
-
+<a href="https://machinelearningmastery.com/applications-of-deep-learning-for-computer-vision/">[References]</a>
 
 ## What is Computer Vision?
 
