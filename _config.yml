@@ -51,8 +51,8 @@ author:
 menu:
   - title: Paper-Review
     url: /paper-review/
-  - title: Tensorflow-API-Project
-    url: /tensorflow-api-project/
+  - title: AI-Project
+    url: /ai-project/
   - title: Backend-Project
     url: /backend-project/
   - title: DataAnalysis-with-Python
