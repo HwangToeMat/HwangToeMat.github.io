@@ -1,11 +1,11 @@
 ---
 layout: list
-title: Tensorflow-API-Project
-slug: Tensorflow-API-Project
+title: AI-Project
+slug: AI-Project
 description: >
-  Carry out various projects by using tensorflow-API.
+  Carry out various AI projects.
 ---
-# Tensorflow-API-Project
+# AI-Project
 
 <details>
 <summary>See More</summary>
