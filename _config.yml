@@ -137,11 +137,12 @@ defaults:
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
 # Analytics
-analytics:
-  provider               : "google-gtag" # 구글 어날리틱스 등록 false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          : "UA-162039541-1"
-    anonymize_ip         : # true, false (default)
+google_analytics:      UA-162039541-1
+# analytics:
+#   provider               : "google-gtag" # 구글 어날리틱스 등록 false (default), "google", "google-universal", "custom"
+#   google:
+#     tracking_id          : "UA-162039541-1"
+#     anonymize_ip         : # true, false (default)
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
