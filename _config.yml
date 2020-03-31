@@ -24,11 +24,11 @@ title: HTM_LAB
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description: >
-  **HTM_LAB for AI Projects**
+  HTM_LAB for AI Projects
 
 # A shorter description for the sidebar.
 tagline: >
-  **HTM_LAB for AI Projects**
+  HTM_LAB for AI Projects
 
 # A list of keywords for your blog
 keywords:
