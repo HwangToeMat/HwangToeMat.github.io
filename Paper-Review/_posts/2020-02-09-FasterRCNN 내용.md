@@ -39,10 +39,13 @@ RPN이 진행되면서 filter가 feature map을 슬라이딩 할때 해당 위�
 
 <img src="https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/Paper-Review/image/FasterRCNN/img3.png?raw=true" style="max-width:100%;margin-left: auto; margin-right: auto; display: block;">
 
-> N<sub>cls<sub/> = mini-batch 의 크기
-> N<sub>loc<sub/> = anchor location의 개수
-> L<sub>cls<sub/> = classificaion loss(물체가 있는지)
-> L<sub>loc<sub/> = bounding box regression loss 
+> N<sub>cls</sub> = mini-batch 의 크기
+>
+> N<sub>loc</sub> = anchor location의 개수
+>
+> L<sub>cls</sub> = classificaion loss(물체가 있는지)
+>
+> L<sub>loc</sub> = bounding box regression loss 
 
 ### 3단계. Classification & Bounding Box Regression
 
