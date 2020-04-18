@@ -54,21 +54,21 @@ RPN이 진행되면서 filter가 feature map을 슬라이딩 할때 해당 위�
 
 R-CNN에서는 Classification과 Bounding Box Regression을 따로 학습하였고. Fast-RCNN에서는 두 가지를 합쳐 Multi-task Loss로 학습을 진행하였다.
 
-하지만 Faster R-CNN에서는 ROI를 구하는 과정(RPN)도 같이 학습시키기 때문에 총 4개의 loss로 학습을 진행한다.
+하지만 Faster R-CNN에서는 **ROI를 구하는 과정(RPN)도 같이 학습시키기 때문에 총 4개의 loss로 학습을 진행한다.**
 
-01. Imagenet에 pretrained된 모델로 RPN의 학습을 진행한다. 
-
-02. 학습된 RPN에서 Region Proposal에 쓰인 layer만 가져와 Fast R-CNN을 학습시킨다.
-
-03. 학습된 RPN과 Fast R-CNN을 가져와 다른 weight는 고정하고 RPN에 해당하는 layer만 fine tune 한다. 
-
-04. 이때부터 RPN과 Fast R-CNN이 weight를 공유하게 되는데 이번에는 CNN과 RPN은 고정시킨채 Fast R-CNN에 해당하는 layer만 fine tune 한다.
+> 01. Imagenet에 pretrained된 모델로 **RPN의 학습**을 진행한다. 
+>
+> 02. 학습된 RPN에서 Region Proposal에 쓰인 layer만 가져와 **Fast R-CNN을 학습**시킨다.
+>
+> 03. 학습된 RPN과 Fast R-CNN을 가져와 다른 weight는 고정하고 **RPN에 해당하는 layer만 fine tune** 한다. 
+>
+> 04. 이때부터 RPN과 Fast R-CNN이 weight를 공유하게 되는데 이번에는 CNN과 RPN은 고정시킨채 **Fast R-CNN에 해당하는 layer만 fine tune** 한다.
 
 ## 기존의 방법과 비교
 
 <img src="https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/Paper-Review/image/FasterRCNN/img4.png?raw=true" style="max-width:100%;margin-left: auto; margin-right: auto; display: block;">
 
-다른 R-CNN계열 모델과 비교해 봤을때 속도가 월등히 빨라진 것을 알 수 있다. 이는 Faster R-CNN에서는 기존의 오래걸렸던 Selective Search 과정을 RPN을 통해 빠르게 진행하였기 때문이라고 생각할 수 있다.
+다른 R-CNN계열 모델과 비교해 봤을때 **속도가 월등히 빨라진 것**을 알 수 있다. 이는 Faster R-CNN에서는 기존의 오래걸렸던 **Selective Search 과정을 RPN을 통해 빠르게 진행**하였기 때문이라고 생각할 수 있다.
 
 ## Result
 
