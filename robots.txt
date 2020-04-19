@@ -2,4 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://hwangtoemat.github.io/sitemap.xml
-rss: https://hwangtoemat.github.io/feed.xml
