@@ -13,66 +13,34 @@ order: 13
 
 # SQUEEZENET: ALEXNET-LEVEL ACCURACY WITH 50X FEWER PARAMETERS AND <0.5MB MODEL SIZE
 
-
-## 모델 구조
+## 모델 특징
 
 <img src="https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/Paper-Review/image/SQUEEZENET/img1.png?raw=true" style="max-width:100%;margin-left: auto; margin-right: auto; display: block;">
 
-SSD의 구조는 위의 그림과 같다. 먼저 **pretrained된 VGG를 통해 feature를 추출**한다. 그 다음 추출된 **feature map을 각기 다른 size의 convolution layer를 통과**시키며 각 layer에서 detection을 수행한디.
+기존의 모델들은 고성능의 System Resource내에서 높은 정확도를 목표로 설계되어 있었다. 특히 이 논문의 대조군인 AlexNet은 classification에서 높은 정확도를 보여줬지만 모델이 너무 무거워 낮은 성능의 System Resource에서는 사용하기 어려웠다.
 
-각 layer에서 얻은 결과는 다음 layer로 보냄과 동시에 마지막으로 보내 **각 layer의 feature map에서 나온 결과**를 합쳐 **NMS알고리즘을 통해 결과를 도출**한다.
+하지만 SQUEEZENET은 그림과 같이 오렌지에서 즙을 짜는것(SQUEEZE)처럼 **기존 모델의 성능을 유지하면서 용량과 파라미터 수는 줄이도록** 설계하였다. 이 논문에서 개인적으로 제일 마음에 드는 부분은 제목이다.
 
-각 주요과정을 자세히 보면 아래와 같다.
+**ALEXNET-LEVEL ACCURACY WITH 50X FEWER PARAMETERS AND <0.5MB MODEL SIZE**
 
-### 1단계. Feature Extraction (VGG)
+~~기존의 모델(AlexNet)과 같은 정확도이면서 파라미터 수를 50배나 줄였고 용량을 0.5MB이하로 줄였다고 당당히 말하는 것이 너무 멋있는것 같다. ㅎㅎ~~
 
-**pretrained된 VGG를 통해 feature를 추출**한다.
+먼저 이 논문에서 제안한 **주요 아이디어**를 살펴 보면 아래와 같다.
 
-### 2단계. Multi-scale feature maps for detection
+### Fire Module
 
-<img src="https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/Paper-Review/image/SSD/img2.png?raw=true" style="max-width:100%;margin-left: auto; margin-right: auto; display: block;">
+<img src="https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/Paper-Review/image/SQUEEZENET/img2.png?raw=true" style="max-width:100%;margin-left: auto; margin-right: auto; display: block;">
 
-**추출된 feature map**을 다양한 size의 convolution layer에 통과시켜 **다양한 resolution의 이미지**를 만들고, 만들어진 다양한 resolution의 이미지로 **detection**한다. 
+### Vanilla vs Simple bypass vs Complex bypass
 
-이때 **resolution 값이 큰 feature map**에서는 하나의 **픽셀값이 의미하는 범위가 좁기** 때문에 **작은 객체**를 detection 할 수 있고, **resolution 값이 작은 feature map**에서는 하나의 **픽셀값이 의미하는 범위가 넓기** 때문에 **큰 객체**를 detection 할 수 있다.    
+<img src="https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/Paper-Review/image/SQUEEZENET/img3.png?raw=true" style="max-width:100%;margin-left: auto; margin-right: auto; display: block;">
 
-### 3단계. Default boxes and Aspect ratios
+<img src="https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/Paper-Review/image/SQUEEZENET/img4.png?raw=true" style="max-width:100%;margin-left: auto; margin-right: auto; display: block;">
 
-<img src="https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/Paper-Review/image/SSD/img3.png?raw=true" style="max-width:100%;margin-left: auto; margin-right: auto; display: block;">
+### Squeeze ratio(SR) & Percentage of 3x3 filters in expand layers
 
-Default box는 Faster R-CNN의 anchor box를 "Multi-scale feature maps for detection"에서 생성되는 **여러 scale의 feature map에 맞게 적용**시킨 개념이다. 스케일에 상관없이 각 픽셀마다 **w, h 값이 aspect ratio로 다르게 생성**되어 **스케일에 맞는 적절한 default box를 생성**한다.
-
-<img src="https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/Paper-Review/image/SSD/img3_1.png?raw=true" style="max-width:100%;margin-left: auto; margin-right: auto; display: block;">
-
-w, h를 구하는 식은 위와 같다. 이때 S<sub>min</sub> = 0.2, S<sub>max</sub> = 0.9로 지정하였다. 
-
-마지막으로 생성된 default box중 **ground truth와 IoU가 0.5이상인 box만 남긴다.**
-
-### 4단계. Non-max Suppression (NMS)
-
-<img src="https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/Paper-Review/image/SSD/img4.png?raw=true" style="max-width:100%;margin-left: auto; margin-right: auto; display: block;">
-
-마지막으로 지금까지 생성된 multi-scale feature map과 bbox에 대한 정보를 **NMS알고리즘**을 사용하여 추려낸다. 자세한 방법은 아래와 같다.
-
-> 01. 먼저 해당 bbox에서 가장 높은 확률을 갖는 label을 고르고, **그 label이 있을 확률에 대해 다른 bbox들을 확률이 높은 순서로 나열**한다.<br>
-> 02. 그리고 **확률값이 제일 큰 bbox**와 **그 다음으로 큰 bbox**의 **IoU를 구하여 0.5이상 이면** 두 bbox는 많은 부분이 겹친다는 것이기 때문에 공존할 이유가 없어 값을 **0으로 바꾸고** IoU가 **0.5이하인 것만 남을 때까지 이 과정을 반복**한다.<br>
-> 03. 다른 label을 기준으로 **2번, 3번 과정을 반복**하여 bbox를 추려 낸다.<br>
-> 04. 최종적으로 **정확한 bbox만 남게된다.**
-
-## Loss Function
-
-<img src="https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/Paper-Review/image/SSD/img5.png?raw=true" style="max-width:100%;margin-left: auto; margin-right: auto; display: block;">
-
-전체적인 loss를 살펴 보면 **L<sub>conf</sub>(classificaion loss)와 L<sub>loc</sub>(bounding box의 localization loss)를** 합쳐서 구한다. 이때 L<sub>conf</sub>은 cross-entropy를 사용했고 L<sub>loc</sub>는 smoth L1 loss를 사용했다.
+<img src="https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/Paper-Review/image/SQUEEZENET/img5.png?raw=true" style="max-width:100%;margin-left: auto; margin-right: auto; display: block;">
 
 ## Result
 
-* Results on Pascal VOC2007 test.
-
-<img src="https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/Paper-Review/image/SSD/img6_0.png?raw=true" style="max-width:100%;margin-left: auto; margin-right: auto; display: block;">
-
-* Detection examples on COCO test-dev with SSD512 model.
-
-<img src="https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/Paper-Review/image/SSD/img6.png?raw=true" style="max-width:100%;margin-left: auto; margin-right: auto; display: block;">
-
-<img src="https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/Paper-Review/image/SSD/img6_1.png?raw=true" style="max-width:100%;margin-left: auto; margin-right: auto; display: block;">
+<img src="https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/Paper-Review/image/SQUEEZENET/img6.png?raw=true" style="max-width:100%;margin-left: auto; margin-right: auto; display: block;">
