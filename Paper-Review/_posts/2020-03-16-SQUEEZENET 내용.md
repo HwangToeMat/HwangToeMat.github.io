@@ -68,3 +68,7 @@ order: 13
 ## Result
 
 <img src="https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/Paper-Review/image/SQUEEZENET/img6.png?raw=true" style="max-width:100%;margin-left: auto; margin-right: auto; display: block;">
+
+제목에서 언급한바와 같이 SQUEEZENET을 대조군인 AlexNet과 비교해 보면, **사이즈가 기본 AlexNet과 무려 50배의 차이**가 나는 것을 알 수 있다. 이때 심지어 **SQUEEZENET이 정확도 또한 높은것**을 알 수 있다.
+
+그 다음 두 모델에 **Deep Compression(Han et al., 2015a)을 적용한 결과**를 보면 SQUEEZENET은 **0.47MB**까지 사이즈가 줄어들고, 기본 AlexNet과 무려 **510배의 차이**가 나는 것을 알 수 있다. 이때도 심지어 **SQUEEZENET의 정확도가 더 높은것**을 알 수 있다.
