@@ -31,6 +31,12 @@ order: 13
 
 <img src="https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/Paper-Review/image/SQUEEZENET/img2.png?raw=true" style="max-width:100%;margin-left: auto; margin-right: auto; display: block;">
 
+이 논문에서 제안한 Fire Module은 그림에서와 같이 Squeeze layer와 Expand layer로 이루어져 있다.
+
+**Squeeze layer**는 **1x1 Conv**로 이루어져 있다. 이는 각 채널간의 정보를 **linear combination하는 Pointwise Conv의 역할**을 진행한다. 이 부분에서 **모델의 용량과 파라미터를 수를 줄여주는 과정**이 일어난다. 
+
+**Expand layer**는 **1x1 Conv**와 **3x3 Conv**로 이루어져 있다. **모델을 가볍게 해줄 수** 있지만 feature extraction을 잘 하지 못하는 **1x1 Conv**와 **feature extraction을 잘**하지만 모델을 무겁게 하는 **3x3 Conv**이 **상호 보완적관계**로 같이 쓰이는 것이다. 이때 파라미터 값을 조절하여 1x1 Conv와 3x3 Conv의 수를 조절할 수 있다.  
+
 ### Vanilla vs Simple bypass vs Complex bypass
 
 <img src="https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/Paper-Review/image/SQUEEZENET/img3.png?raw=true" style="max-width:100%;margin-left: auto; margin-right: auto; display: block;">
