@@ -53,8 +53,8 @@ menu:
     url: /paper-review/
   - title: AI-Project
     url: /ai-project/
-  - title: Backend-Project
-    url: /backend-project/
+#   - title: Backend-Project
+#     url: /backend-project/
   - title: DataAnalysis-with-Python
     url: /dataanalysis-with-python/
   - title: Computer-Science
