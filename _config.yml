@@ -19,16 +19,16 @@ baseurl: ""
 lang: ko
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title: HTM_LAB
+title: 황토매트 연구소
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description: >
-  HTM_LAB to become a AI Developer
+  듬직한 AI 개발자의 블로그
   
 # A shorter description for the sidebar.
 tagline: >
-  HTM_LAB to become a AI Developer
+  듬직한 AI 개발자의 블로그
 
 # A list of keywords for your blog
 keywords:
