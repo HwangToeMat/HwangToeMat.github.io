@@ -47,3 +47,4 @@ _site
 
 # webstorm
 .idea
+*.pptx
