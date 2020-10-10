@@ -10,6 +10,8 @@ order: 16
 
 # [ComputerVision] 01. SlideShow 만들기 - OpenCV 기초
 
+## 01. SlideShow 만들기 - OpenCV 기초 [[Github Link]](https://github.com/HwangToeMat/ComputerVision-with-OpenCV/tree/master/01.%20SlideShow%20%EB%A7%8C%EB%93%A4%EA%B8%B0)
+
 ComputerVision을 본격적으로 공부하기전 OpenCV사용법을 익히기위해 슬라이드쇼 기능을 구현해보기
 
 ## 메인 코드
