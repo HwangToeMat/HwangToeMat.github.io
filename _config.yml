@@ -49,17 +49,16 @@ author:
 
 # Add links to the sidebar.
 menu:
+  - title: Portfolio
+    url: https://www.notion.so/Kim-TaeHo-9aedcc22e801493db27748647cfdd1c1
   - title: Paper-Review
     url: /paper-review/
   - title: AI-Project
     url: /ai-project/
-#   - title: Backend-Project
-#     url: /backend-project/
   - title: DataAnalysis-with-Python
     url: /dataanalysis-with-python/
   - title: Computer-Science
     url: /computer-science/
-
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 # legal:
