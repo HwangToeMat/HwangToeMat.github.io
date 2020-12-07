@@ -49,8 +49,6 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title: Portfolio
-    url: https://www.notion.so/Kim-TaeHo-9aedcc22e801493db27748647cfdd1c1
   - title: Paper-Review
     url: /paper-review/
   - title: AI-Project
