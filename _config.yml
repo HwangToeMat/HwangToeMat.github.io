@@ -32,7 +32,7 @@ tagline: >
 
 # A list of keywords for your blog
 keywords:
-  [ai, computer vision, machine learning, tensorflow, pytorch, colab, project]
+  [ai, computer vision, machine learning, tensorflow, pytorch, colab, project, flask, paper, python]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
