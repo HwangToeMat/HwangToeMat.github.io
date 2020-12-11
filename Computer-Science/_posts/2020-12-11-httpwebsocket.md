@@ -29,6 +29,8 @@ HTTP의 중요한 특징인 **Client의 요청이 있을때만** 서버가 응�
 
 <img src="https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/Computer-Science/image/WEB/HTTP/2.png?raw=true" style="max-width:100%;margin-left: auto; margin-right: auto; display: block;">
 
+[이미지 출처](https://mangkyu.tistory.com/48)
+
 ## HTTP와 WebSocket의 특징과 쓰이는 곳
 
 - HTTP
