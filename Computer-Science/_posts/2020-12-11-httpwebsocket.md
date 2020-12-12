@@ -8,7 +8,7 @@ layout: post
 order: 28
 ---
 
-# [웹개발] 05. HTTP와 WebSocket 까지
+# [웹개발] 05. HTTP와 WebSocket는 무엇이고 언제쓰일까?
 
 ## HTTP 란?
 
