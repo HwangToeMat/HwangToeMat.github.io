@@ -1,6 +1,6 @@
 ---
 title: (웹개발) 06. WebServer와 WAS의 개념
-image: https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/Computer-Science/image/WEB/c/0.png?raw=true
+image: https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/Computer-Science/image/WEB/WAS/1.png?raw=true
 description: >
  WebServer와 WAS의 개념을 살펴보고 어떤곳에서 쓰이는지 알아본다.
 author: author1
@@ -21,10 +21,17 @@ order: 29
 
 여기서 WebServer와 WAS가 각각 어떤역할을 하고 왜 존재하는지 알아보도록 하겠다.
 
-## WebServer 란?
+## WebServer의 개념 및 역할?
 
+웹서버는 클라이언트로부터 HTTP 요청을 받아 필요한 데이터를 제공하는 역할을 한다.
+이때 웹서버는 주로 정적인 컨텐츠를 제공하고 동적인 컨텐츠에 대한 요청을 WAS로 전달하여 처리된 결과를 클라이언트에게 반환한다.
+
+웹서버는 주로 nginx와 aparch, iis가 많이 쓰이는데, 최근에는 쓰레드개념인 다른 웹서버에비해 Event-Driven구조를 사용하는 nginx를 많이 사용한다.
 
 ## WAS 이란?
 
+WAS는 전달받은 동적컨텐츠에대한 요청을 처리하여 제공하는 역할을 하는 미들웨어이다.
+이때 앞에서 요청받은 HTTP 요청을 앱에 맞게 변환하여 전달하고 처리된 값을 웹서버에 맞게 변환하여 전달해주는 역할을 한다.
 
-## 결론
+WAS는 주로 Tomcat, uWsgi, gUnicorn 등이 있다.
+
