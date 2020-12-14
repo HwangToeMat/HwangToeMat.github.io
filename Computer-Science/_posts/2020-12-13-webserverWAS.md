@@ -1,6 +1,6 @@
 ---
 title: (웹개발) 06. WebServer와 WAS의 개념
-image: https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/Computer-Science/image/WEB/WAS/1.png?raw=true
+image: https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/Computer-Science/image/WEB/WAS/0.png?raw=true
 description: >
  WebServer와 WAS의 개념을 살펴보고 어떤곳에서 쓰이는지 알아본다.
 author: author1
@@ -28,7 +28,7 @@ order: 29
 
 웹서버는 주로 nginx와 aparch, iis가 많이 쓰이는데, 최근에는 쓰레드개념인 다른 웹서버에비해 Event-Driven구조를 사용하는 nginx를 많이 사용한다.
 
-## WAS 이란?
+## WAS의 개념 및 역할?
 
 WAS는 전달받은 동적컨텐츠에대한 요청을 처리하여 제공하는 역할을 하는 미들웨어이다.
 이때 앞에서 요청받은 HTTP 요청을 앱에 맞게 변환하여 전달하고 처리된 값을 웹서버에 맞게 변환하여 전달해주는 역할을 한다.
