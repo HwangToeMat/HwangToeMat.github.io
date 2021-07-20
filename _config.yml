@@ -24,15 +24,15 @@ title: 황토매트 연구소
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description: >
-  듬직한 AI 개발자의 블로그
+  재밋는거 하고싶은 개발자의 블로그
   
 # A shorter description for the sidebar.
 tagline: >
-  듬직한 AI 개발자의 블로그
+  재밋는거 하고싶은 개발자의 블로그
 
 # A list of keywords for your blog
 keywords:
-  [ai, computer vision, machine learning, tensorflow, pytorch, colab, project, flask, paper, python]
+  [ai, computer vision, machine learning, tensorflow, pytorch, colab, project, flask, paper, python, JAVA, spring, kotlin]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
