@@ -3,13 +3,13 @@
 # Change `author1` to your shortname.
 author1:
   name:              Taeho Kim
-  email:             xoghsms794280@gmail.com
+  email:             insu7942@naver.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
         Taeho Kim
-        - AI Developer in South Korea
+        - SNOW BE Engineer
 
   # This photo will be used in the about section
   picture:
